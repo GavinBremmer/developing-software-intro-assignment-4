@@ -1,19 +1,24 @@
-# Focus College ACSD Assignment 4
+# Generic Typescript Package
 
-This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.
+This is a generic typescript project that can be used as a boilerplate. Additional functionality to come.
 
----
+This project contains the following packages:
 
-You can remove everything below the above line once you're ready to edit this file.
+- Typescript Compiler
+    - tsconfig.json
 
-## Getting Started
+## Start Scripts
 
-Please read the [Assignment Requirements](./assignment/readme.md)
+This project has the following scripts:
 
-## Deadline For Submissions
-
-The deadline for this assignment is 5PM on Wednesday September 30th, 2020
-
-## Notes
-
-This is a PUBLIC repository attached to your github account and something that you can demonstrate to potential employers. Take care to ensure professionalism for both you and your team's sake. This will be the first entry into your professional portfolio.
+To compile the program use:
+```
+npm run build:compile
+```
+To run the program use:
+```
+npm run start
+```
+To compile and run the program use:
+```
+npm run start:dev
