@@ -43,7 +43,6 @@ Example:
 npm run start:dev -- -- say-hello --name Antonio
 ```
 
-
 ## Start Scripts
 
 This project has the following scripts:
