@@ -1,6 +1,6 @@
 # Generic Typescript Package
 
-This is a generic typescript project that can be used as a boilerplate. Additional functionality to come.
+This is a generic typescript project that can be used as a boilerplate.
 
 This project contains the following packages:
 
@@ -18,6 +18,11 @@ This project contains the following packages:
     - .prettierrc.json
     - .prettierignore
 
+- Mocha and Chai
+
+- nyc
+    - nycrc.json
+
 ## Installation Instructions
 
 To install this package please run:
@@ -30,15 +35,15 @@ npm install
 
 This project has the following scripts:
 
-To compile the program use:
+To compile the program:
 ```
 npm run build:compile
 ```
-To run the program use:
+To run the program:
 ```
 npm run start
 ```
-To compile and run the program use:
+To compile and run the program:
 ```
 npm run start:dev
 ```
@@ -46,7 +51,7 @@ To run the linter:
 ```
 npm run lint
 ```
-To run the code formatter use:
+To run the code formatter:
 ```
 npm run prettier
 ```
@@ -54,7 +59,11 @@ To run the code tester:
 ```
 npm run test
 ```
-To lint, format, test, compile and run the program use:
+To run the code tester with coverage report:
+```
+npm run test:coverage
+```
+To lint, format, test, compile and run the program:
 ```
 npm run start:all
 ```
