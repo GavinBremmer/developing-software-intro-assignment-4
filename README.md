@@ -1,6 +1,6 @@
 # Generic Typescript Package
 
-This is a generic typescript project that can be used as a boilerplate.
+This is a generic typescript project with a simple yargs function.
 
 This project contains the following packages:
 
@@ -23,6 +23,8 @@ This project contains the following packages:
 - nyc
     - nycrc.json
 
+- Yargs
+
 ## Installation Instructions
 
 To install this package please run:
@@ -30,6 +32,17 @@ To install this package please run:
 ``` 
 npm install 
 ```
+
+## Yargs Function
+To use the yargs function:
+```
+npm run start:dev -- -- say-hello --name [desired name, without braces]
+```
+Example:
+```
+npm run start:dev -- -- say-hello --name Antonio
+```
+
 
 ## Start Scripts
 
