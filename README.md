@@ -7,6 +7,18 @@ This project contains the following packages:
 - Typescript Compiler
     - tsconfig.json
 
+- ESLint (Linting)
+    - .eslintrc
+    - .eslintignore
+
+## Installation Instructions
+
+To install this package please run:
+
+``` 
+npm install 
+```
+
 ## Start Scripts
 
 This project has the following scripts:
@@ -22,3 +34,12 @@ npm run start
 To compile and run the program use:
 ```
 npm run start:dev
+```
+To run the linter:
+```
+npm run lint
+```
+To lint, compile and run the program use:
+```
+npm run start:all
+```
